@@ -1,0 +1,17 @@
+#compdef smug
+_smug() {
+    local -a commands
+    commands=(
+        'start:start a tmux session by name'
+        'edit:edit a tmux session by name'
+        'stop:stop a tmux session by name'
+    )
+
+    if (( CURRENT == 2 )); then
+        _describe -t commands 'commands' commands
+    fi
+
+    return 0
+}
+
+_smug

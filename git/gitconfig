@@ -1,0 +1,9 @@
+[user]
+    name = StephLin
+    email = stephen359595@gmail.com
+
+[core]
+    editor = vim
+
+[init]
+	defaultBranch = main
