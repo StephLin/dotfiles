@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Python
-sudo apt install -y python python3 python-dev python3-dev python-pip python3-pip 
+sudo apt install -y python3 python3-dev python3-pip 
 
 # GDB (GEF)
 sudo apt install -y gdb
